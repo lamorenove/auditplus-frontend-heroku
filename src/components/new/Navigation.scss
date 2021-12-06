@@ -1,0 +1,29 @@
+#top-bar {
+  background: #01045e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #sidebar {
+    background: #090b44;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin-top: 50px;
+    left: 0;
+    top: 0;
+    transition: 350ms;
+    z-index: 10;
+
+    button {
+      background-color: #090b44;
+    }
+  }
+}
